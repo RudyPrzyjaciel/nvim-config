@@ -47,7 +47,6 @@ require("catppuccin").setup({
 
 function ColorMyPencils(color)
     color = color or "catppuccin"
-    -- setup must be called before loading
     vim.cmd.colorscheme "catppuccin"
 end
 
