@@ -47,6 +47,7 @@ require("catppuccin").setup({
 
 function ColorMyPencils(color)
     color = color or "catppuccin"
+    vim.o.termguicolors = true
     vim.cmd.colorscheme "catppuccin"
 end
 
